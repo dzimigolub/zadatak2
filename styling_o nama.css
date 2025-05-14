@@ -1,0 +1,174 @@
+.header{
+    padding: 1px;
+    text-align: center;
+    background-color: rgb(174, 216, 255);
+    color: beige;
+    font-size: 30px;
+    color: black;
+    border-radius: 30px 30px 0px 0px;
+    font-family: "helios",sans-serif;
+    z-index: 1;
+}
+.navigation{
+    background-color: rgb(168, 164, 230);
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
+.navigation ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font: bold;
+}
+.navigation li{
+    display: inline-block;
+}
+.navigation a{
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    padding: 0 15px;
+    display: inline-block;
+    line-height: 30px;
+    transition: 0.3s ease-in-out;
+}
+.navigation a:hover{
+    color: black;
+    transition: 0.3s ease-in-out;
+    scale: (1.1);
+}
+@font-face {
+    font-family: 'Helios';
+    src: url(helios-typeface/Webfonts/Helios\ Regular.woff) format('woff'),
+         url('fonts/Helios.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  .onama {
+    position: relative;
+    height: 100vh;
+    background: url('slikaa.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+  }
+  .onama .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top right, rgba(0, 0, 0, 0.7), rgba(50, 0, 100, 0.3));
+    z-index: 1;
+  }
+  .onama .content {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .onama h3 {
+    font-size: 1.2rem;
+    color: #66ffe6;
+    margin-bottom: 10px;
+  }
+  
+  .onama h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .btn {
+    padding: 12px 24px;
+    background: #6c5ce7;
+    color: white;
+    border: none;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  .btn:hover {
+    background: #a29bfe;
+    transition: 0.3s ease-in-out;
+  }
+#Tehnologija{
+  position: relative;
+  background: url('slika.jpg') center/cover no-repeat;
+  height: 70vh;
+  display: flex;
+  padding: 0 50px;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: left;
+  padding-top: 100px;
+  padding-right: 700px;
+}
+#Tehnologija::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right,rgb(103, 96, 175) 20%, rgb(90, 187, 187) 40%, transparent 100%);
+  z-index: 1;
+}
+#neznam{
+  position: absolute;
+  top: 120%;
+  left: 2%;
+  width: 80%;
+  padding: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  z-index: 3;
+  padding-right: 67%;
+  font-family: "helios",sans-serif;
+  font-weight: bold;
+}
+#nesto{
+  position: relative;
+  background: url('wherqherh.jpg') center/cover no-repeat;
+  height: 70vh;
+  display: flex;
+  padding: 0 50px;
+  background-blend-mode: overlay;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: left;
+  padding-top: 100px;
+  padding-left: 700px;
+}
+#nesto::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to left,rgb(103, 96, 175) 20%, rgb(90, 187, 187) 40%, transparent 100%);
+  z-index: 1;
+}
+#text{
+  position: absolute;
+  top: 189%; 
+  left: 40%; 
+  font-weight: bold;
+  z-index: 999;
+  width: 200px;
+  height: 300px;
+  font-family: "helios",sans-serif;
+  font-size: 16px;
+  text-align: right;
+  margin-left: 45%;
+
+}

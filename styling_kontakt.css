@@ -1,0 +1,124 @@
+.header{
+    padding: 1px;
+    text-align: center;
+    background-color: #aed8ff;
+    color: beige;
+    font-size: 30px;
+    color: black;
+    border-radius: 30px 30px 0px 0px;
+    font-family: "helios",sans-serif;
+    z-index: 1;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+.navigation{
+    background-color: #A8A4E6;
+    padding: 10px;
+    text-align: center;
+    z-index: 1;
+}
+.navigation ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font: bold;
+}
+.navigation li{
+    display: inline-block;
+}
+.navigation a{
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+    padding: 0 15px;
+    display: inline-block;
+    line-height: 30px;
+    transition: 0.3s ease-in-out;
+}
+.navigation a:hover{
+    color: black;
+    transition: 0.3s ease-in-out;
+    scale: (1.1);
+}
+@font-face {
+    font-family: 'Helios';
+    src: url(helios-typeface/Webfonts/Helios\ Regular.woff) format('woff'),
+         url('fonts/Helios.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', sans-serif;
+    color: white;
+  }
+  
+  .hero {
+    position: relative;
+    background: url('wherqherh.jpg') center/cover no-repeat;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 50px;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to right,rgb(103, 96, 175) 20%, rgb(90, 187, 187) 40%, transparent 100%);
+    z-index: 1;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 600px;
+  }
+  
+  .hero h4 {
+    font-size: 12px;
+    letter-spacing: 2px;
+    font-weight: 600;
+    color: #f0f0f0;
+    margin-bottom: 10px;
+  }
+  
+  .hero h1 {
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0;
+    line-height: 1.1;
+  }
+  
+  .hero h1 span {
+    color: rgb(202, 33, 188);
+  }
+  
+  .hero p {
+    margin-top: 20px;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #ddd;
+  }
+  
+  .hero .cta-button {
+    margin-top: 30px;
+    display: inline-block;
+    background-color: rgb(204, 19, 189);
+    color: white;
+    padding: 12px 24px;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .hero .cta-button:hover {
+    background-color: #ff2d77;
+  }
